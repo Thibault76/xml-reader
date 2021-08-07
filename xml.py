@@ -53,7 +53,6 @@ class Xml:
                                 data[name_of_tag]["child"] = self.read_tag()
                 else:
                     self.skip_comment()
-
         return data
 
     def read_name_tag(self):
